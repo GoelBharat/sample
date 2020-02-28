@@ -1,71 +1,14 @@
 {
-"orders": [
-    { 
-      "orderId": 1, 
-      "orderDate": "10/10/2020", 
-      "email": "test@test.com", 
-      "amount": 123, 
-      "status": "shipped",
-      "items" : [
-        {
-          "itemId": 1,
-          "name": "item1",
-          "price": 20,
-          "discount": 10,
-          "quantity": 5,
-          "tax": 33
-        }
-      ] 
-    },
-    { 
-      "orderId": 2, 
-      "orderDate": "10/11/2020", 
-      "email": "test@test.com", 
-      "amount": 400, 
-      "status": "cancelled",
-      "items" : [
-        {
-          "itemId": 2,
-          "name": "item2",
-          "price": 20,
-          "discount": 10,
-          "quantity": 5,
-          "tax": 10
-        },
-        {
-          "itemId": 1,
-          "name": "item2",
-          "price": 20,
-          "discount": 20,
-          "quantity": 20,
-          "tax": 20
-        }
-      ] 
-    },
-    { 
-      "orderId": 3, 
-      "orderDate": "10/12/2020", 
-      "email": "test@test.com", 
-      "amount": 298, 
-      "status": "shipped",
-      "items" : [
-        {
-          "itemId": 1,
-          "name": "item1",
-          "price": 20,
-          "discount": 10,
-          "quantity": 15,
-          "tax": 0
-        },
-        {
-          "itemId": 4,
-          "name": "item4",
-          "price": 8,
-          "discount": 0,
-          "quantity": 1,
-          "tax": 0
-        }
-      ]  
-    },
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
